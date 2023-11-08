@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** GENERAL ***/
+
+/* footer */
+
+.upgrade-line{
+    width: calc(100% - 200px);
+    height: 75px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 200px;
+}
+
+.upgrade-line{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.upgrade-button{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-right: 20px;
+    font-size: 0.9rem;
+}
+
+/* main */
+
+.top{
+    height: calc(100vh - 75px);
+    background-color: rgba(20,25,34,255);
+}
+
+.top-content{
+    display: flex;
+    background-color: rgba(20,25,34,255);
+    height: 100%;
+}
+
+/* side-left */
+
+.side-left{
+    width: 200px;
+    background-color: rgba(0,0,0,255);
+    display: flex;
+}
+
+.left-content{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-list-nav ul{
+    list-style: none;
+    color: white;
+}
+
+.bottom-list-nav ul{
+    list-style: none;
+    color: white;
+}
+
+.bottom-list-nav h3, .bottom-nav h3{
+    color: white;
+}
+
+.bottom-nav a{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* side-right */
+
+.side-right{
+    width: calc(100vw - 200px);
+    background-color: rgba(20,25,34,255);
+    overflow-y: auto;
+}
+
+.right-content{
+    margin-top: 75px;
+}
+
+.container{
+    width: calc(100% - 40px);
+    margin: 0 20px;
+}
+
+.text{
+    margin: 0 30px;
+    color: white;
+}
+
+.row{
+    display: flex;
+}
+
+.col-6{
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.col-2{
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.top-list ul, a{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    gap: 25px;
+    text-decoration: none;
+}
+
+/* footer */
+
+.bottom{
+    height: 75px;
+    background-color: rgba(40,40,40,255);
+}
