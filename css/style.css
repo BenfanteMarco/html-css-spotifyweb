@@ -6,6 +6,10 @@
 
 /*** GENERAL ***/
 
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
 /* footer */
 
 .upgrade-line{
@@ -134,4 +138,21 @@
 .bottom{
     height: 75px;
     background-color: rgba(40,40,40,255);
+}
+
+.bottom .row{
+    color: white;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.col-15{
+    width: 15%;
+}
+
+.col-70{
+    width: 70%;
+    display: flex;
+    justify-content: center;
 }
