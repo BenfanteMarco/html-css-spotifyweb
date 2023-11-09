@@ -93,6 +93,10 @@ body{
 .bottom-list-nav ul{
     list-style: none;
     color: rgba(109,109,109,255);
+    width: 100%;
+    height: 40vh;
+    overflow-y: auto;
+    line-height: 2.2rem;
 }
 
 .bottom-list-nav h3{
@@ -113,9 +117,54 @@ body{
 }
 
 .bottom-list-nav i{
-    background-color: red;
-    padding: 5px;
+    background-color: rgba(163,163,163,255);
+    padding: 0.5rem;
     font-size: 25px;
+}
+
+.plus{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.download{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.download a{
+    font-size: 0.8rem;
+    color: rgba(163,163,163,255);
+}
+
+.bottom-nav hr{
+    border: 0.7px solid;
+    color: rgba(163,163,163,255);
+    width: 85%;
+}
+
+.profile{
+    display: flex;
+    margin: 10px 0;
+}
+
+.profile img{
+    width: 13%;
+    height: 25px;
+    background-color: rgba(128,128,128,255);
+    border-radius: 50%;
+}
+
+.profile h3{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 
 /* side-right */
@@ -132,12 +181,25 @@ body{
 
 .container{
     width: calc(100% - 40px);
-    margin: 0 20px;
+    margin: 40px 20px;
+}
+
+.radius{
+    border-radius: 50%;
 }
 
 .text{
     margin: 0 10px;
     color: white;
+}
+
+.text h2{
+    font-size: 1.4rem;
+}
+
+.text p{
+    font-size: 0.7rem;
+    color: rgba(163,163,163,255);
 }
 
 .row{
@@ -148,23 +210,56 @@ body{
     width: calc(100% - 20px);
     margin: 10px;
     height: 200px;
-    background-color: bisque;
 }
 
 .col-2{
     width: calc(100% / 6 - 20px);
     margin: 10px;
     height: 200px;
-    background-color: bisque;
+}
+
+.top-list ul{
+    height: 50px;
+    margin-bottom: 10px;
 }
 
 .top-list ul, a{
     display: flex;
     justify-content: center;
     list-style: none;
-    color: white;
+    color: rgba(163,163,163,255);
     gap: 25px;
     text-decoration: none;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.text h2{
+    margin-bottom: 10px;
+}
+
+.playlist-img img{
+    width: 100%;
+}
+
+.under-text{
+    margin-top: 5px;
+}
+
+.under-text h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.under-text p{
+    display: flex;
+    justify-content: center;
+    color: rgba(163,163,163,255);
+    font-size: 0.7rem;
+    margin-top: 5px;
 }
 
 /* footer */
@@ -172,6 +267,8 @@ body{
 .bottom{
     height: 75px;
     background-color: rgba(40,40,40,255);
+    width: 100%;
+    position: fixed;
 }
 
 .bottom .row{
