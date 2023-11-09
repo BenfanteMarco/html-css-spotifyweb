@@ -10,7 +10,7 @@ body{
     font-family: 'Red Hat Display', sans-serif;
 }
 
-/* footer */
+/* header */
 
 .upgrade-line{
     width: calc(100% - 200px);
@@ -67,21 +67,55 @@ body{
 
 .top-list-nav ul{
     list-style: none;
-    color: white;
+    color: rgba(109,109,109,255);
+}
+
+.top-list-nav img{
+    width: 15%;
+}
+
+.top-list-nav li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.top-nav .logo{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.top-list-nav{
+    margin-bottom: 20px;
 }
 
 .bottom-list-nav ul{
     list-style: none;
-    color: white;
+    color: rgba(109,109,109,255);
 }
 
-.bottom-list-nav h3, .bottom-nav h3{
+.bottom-list-nav h3{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.bottom-nav h3{
     color: white;
 }
 
 .bottom-nav a{
     display: flex;
     justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-list-nav i{
+    background-color: red;
+    padding: 5px;
+    font-size: 25px;
 }
 
 /* side-right */
@@ -102,7 +136,7 @@ body{
 }
 
 .text{
-    margin: 0 30px;
+    margin: 0 10px;
     color: white;
 }
 
